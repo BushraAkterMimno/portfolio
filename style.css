@@ -1,0 +1,59 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+    color: darkblue;
+}
+
+.blue{
+    color: blue;
+}
+
+section{
+    display: flex;
+}
+
+.width{
+    padding-left: 2%;
+    width: 50%
+}
+
+.width img{
+    width: 100%
+}
+
+.width p{
+    width: 60%;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(blue, darkblue);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.banner{
+    background-image: url(banner.png);
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
