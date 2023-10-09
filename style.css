@@ -8,12 +8,16 @@ h1{
     color: darkblue;
 }
 
+h2{
+    color: darkblue;
+}
 .blue{
     color: blue;
 }
 
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 150px;
 }
 
 .width{
@@ -43,14 +47,43 @@ section{
     background-repeat: no-repeat;
 }
 
+.dream-big{
+    background-image: url(banner3.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
 
+.skyblue{
+    color: dodgerblue;
+}
 
+.experience-area{
+    background-image: url(img4.png);
+    background-repeat: no-repeat;
+}
+.width-h{
+    font-size: 30px;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 20px;
+}
+#web-dev-experience{
+    border-left: 7px solid;
+   border-image: linear-gradient(blue, cyan); 
+   border-image-slice: 1;
+}
+#full-stack-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan); 
+   border-image-slice: 1;
+}
 
-
-
-
-
-
+footer p{
+    text-align: center;
+}
 
 
 
